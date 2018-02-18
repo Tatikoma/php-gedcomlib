@@ -1,0 +1,28 @@
+{
+  "name": "tatikoma/php-gedcomlib",
+  "type": "library",
+  "description": "Parser for GEDCOM file format",
+  "keywords": [
+    "gedcom"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Tatikoma"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Tatikoma\\Gedcom\\": [
+        "src/gedcom/"
+      ]
+    },
+    "classmap": [
+      "src/gedcom/"
+    ]
+  }
+}
